@@ -1,0 +1,3 @@
+docker inspect overlord | grep IPAddress
+#chek this docker inspect --format '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' overlord
+#inspect - представляет подробную ифну о контейнере/образах 

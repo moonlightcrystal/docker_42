@@ -1,0 +1,5 @@
+docker volume create --name hatchery
+#volume - объялвяет заданный файл или каталог как том
+#docker volume ls
+
+
